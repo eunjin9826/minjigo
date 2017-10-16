@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eunji.a216230078.Main2Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:onClick="onButtonClick"
+        android:text="취향이 접수되었습니다."
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="#이색음식#퓨전#분위기#맥주#낭만" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="#숙취해소#얼큰칼칼#시원#스트레스해소"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="280dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="#혼밥 #저렴 #No눈치#곧 프로혼밥러"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="#불금 #달리자 #소맥한잔#캬#안주완벽"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="#디저트 #달달 #상콤 #충전완료"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="397dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="#데이트 #분위기 #고백 #성공적"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="397dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

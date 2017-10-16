@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eunji.a216230078.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_gravity="bottom|left"
+        android:onClick="Button3"
+        app:layout_anchor="@+id/imageView"
+        app:layout_anchorGravity="top|right"
+        app:srcCompat="@drawable/info"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:onClick="Button2"
+        android:text="Go"
+        app:layout_anchor="@+id/imageView"
+        app:layout_anchorGravity="bottom|center_horizontal"
+        tools:ignore="HardcodedText" />
+
+</android.support.design.widget.CoordinatorLayout>
